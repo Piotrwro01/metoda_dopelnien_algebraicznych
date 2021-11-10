@@ -11,3 +11,16 @@ P:\Csharp\przeliczenie_macierzy\obj\Debug\netcoreapp3.1\przeliczenie_macierzy.cs
 P:\Csharp\przeliczenie_macierzy\obj\Debug\netcoreapp3.1\przeliczenie_macierzy.dll
 P:\Csharp\przeliczenie_macierzy\obj\Debug\netcoreapp3.1\przeliczenie_macierzy.pdb
 P:\Csharp\przeliczenie_macierzy\obj\Debug\netcoreapp3.1\przeliczenie_macierzy.genruntimeconfig.cache
+P:\Csharp\metoda_dopelnien_algebraicznych\bin\Debug\netcoreapp3.1\przeliczenie_macierzy.exe
+P:\Csharp\metoda_dopelnien_algebraicznych\bin\Debug\netcoreapp3.1\przeliczenie_macierzy.deps.json
+P:\Csharp\metoda_dopelnien_algebraicznych\bin\Debug\netcoreapp3.1\przeliczenie_macierzy.runtimeconfig.json
+P:\Csharp\metoda_dopelnien_algebraicznych\bin\Debug\netcoreapp3.1\przeliczenie_macierzy.runtimeconfig.dev.json
+P:\Csharp\metoda_dopelnien_algebraicznych\bin\Debug\netcoreapp3.1\przeliczenie_macierzy.dll
+P:\Csharp\metoda_dopelnien_algebraicznych\bin\Debug\netcoreapp3.1\przeliczenie_macierzy.pdb
+P:\Csharp\metoda_dopelnien_algebraicznych\obj\Debug\netcoreapp3.1\przeliczenie_macierzy.csprojAssemblyReference.cache
+P:\Csharp\metoda_dopelnien_algebraicznych\obj\Debug\netcoreapp3.1\przeliczenie_macierzy.AssemblyInfoInputs.cache
+P:\Csharp\metoda_dopelnien_algebraicznych\obj\Debug\netcoreapp3.1\przeliczenie_macierzy.AssemblyInfo.cs
+P:\Csharp\metoda_dopelnien_algebraicznych\obj\Debug\netcoreapp3.1\przeliczenie_macierzy.csproj.CoreCompileInputs.cache
+P:\Csharp\metoda_dopelnien_algebraicznych\obj\Debug\netcoreapp3.1\przeliczenie_macierzy.dll
+P:\Csharp\metoda_dopelnien_algebraicznych\obj\Debug\netcoreapp3.1\przeliczenie_macierzy.pdb
+P:\Csharp\metoda_dopelnien_algebraicznych\obj\Debug\netcoreapp3.1\przeliczenie_macierzy.genruntimeconfig.cache

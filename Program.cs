@@ -48,14 +48,14 @@ namespace SPOJ_transponowanie_macierzy
         public static int[,] OdwrocMacierz(int[,] tablica)
         {
 
-            int w = tablica.GetLength(0);
-            int h = tablica.GetLength(1);
+            int rowLength = tablica.GetLength(0);
+            int colLength = tablica.GetLength(1);
 
-            int[,] odwroconaTablica = new int[h, w];
+            int[,] odwroconaTablica = new int[colLength, rowLength];
 
-            for (int i = 0; i < w; i++)
+            for (int i = 0; i < rowLength; i++)
             {
-                for (int j = 0; j < h; j++)
+                for (int j = 0; j < colLength; j++)
                 {
                     odwroconaTablica[j, i] = tablica[i, j];
                 }
@@ -89,71 +89,3 @@ namespace SPOJ_transponowanie_macierzy
         }
     }
 }
-
-
-//using system;
-//using system.collections.generic;
-
-//namespace przeliczenie_macierzy
-//{
-//class program
-//{
-//    static int[,] zczytajtablice(int[,] tablica)//zczytuje tablice 2d
-//    {
-//        for (int i = 0; i < tablica.getlength(1); i++)
-//        {
-//            for (int j = 0; j < tablica.getlength(0); j++)
-//            {
-//                tablica[j, i] = int.parse(console.readline());
-
-//            }
-//            console.write(environment.newline);
-//        }
-//        return tablica;
-//    }
-//    static void wyswietltablice(int[,] tablica)//wyswietla tablice 2d i chuj
-//    {
-//        for (int i = 0; i < tablica.getlength(0); i++)
-//        {
-//            for (int j = 0; j < tablica.getlength(1); j++)
-//            {
-//                console.write(tablica[i, j] + " ");
-//            }
-//            console.write(environment.newline);
-//        }
-//    }
-
-//    public static int[,] odwrocmacierz(int[,] tablica)
-//    {
-//        for (int wierszeindex = 0;
-//             wierszeindex <= (tablica.getupperbound(0)); wierszeindex++)
-//        {
-//            for (int kolumnyindex = 0;
-//                 kolumnyindex <= (tablica.getupperbound(1) / 2); kolumnyindex++)
-//            {
-//                int wartosctymczasowa = tablica[wierszeindex, kolumnyindex];
-//                tablica[wierszeindex, kolumnyindex] =
-//                  tablica[wierszeindex, tablica.getupperbound(1) - kolumnyindex];
-//                tablica[wierszeindex, tablica.getupperbound(1) - kolumnyindex] =
-//                  wartosctymczasowa;
-//            }
-//        }
-
-//        return tablica;
-//    }
-
-//    static void main(string[] args)
-//    {
-
-
-//        int wysokosc = int.parse(console.readline());
-//        int szerokosc = int.parse(console.readline());
-
-//        int[,] macierz = new int[wysokosc, szerokosc];
-//        macierz = zczytajtablice(macierz);
-//        int[,] odwroconamacierz = new int[szerokosc, wysokosc];
-//        odwroconamacierz = odwrocmacierz(macierz);
-//        wyswietltablice(odwroconamacierz);
-//    }
-//    }
-//}
